@@ -1,0 +1,126 @@
+@media(max-width: 947px) {
+    footer {
+        padding: 20px 50px 5px 50px;
+        gap: 30px;
+    }
+  
+  footer section {
+    gap: 15px;
+  }
+  
+  footer section h3{
+    font-size: 12px;
+  }
+  
+  footer section li{
+    font-size: 11px;
+  }
+  
+  .store-name {
+    gap: 8px;
+  }
+  
+  .store-name h1{
+    font-size: 27px;
+  
+  }
+  
+  .store-name p {
+    font-size: 11px;
+  }
+  
+  .quicklinks {
+    gap: 18px;
+  }
+  
+  .quicklinks .link {
+    gap: 8px;
+  
+  }
+
+  .quicklinks .link h3{
+    font-size: 12px;
+  }
+  
+  .quicklinks .link ul{
+    gap: 4px;
+  }
+
+  .quicklinks .link ul li {
+    font-size: 9px;
+  }
+  
+   .payment-methods {
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .payment-methods ul {
+    gap: 15px;
+  }
+  
+  .rights p{
+    font-size: 8px;
+  } 
+}
+    
+@media(max-width: 700px){
+    footer {
+        gap: 15px;
+    }
+      
+      footer section {
+        gap: 15px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+      }
+
+      .store-name {
+        align-items: center;
+      }
+
+      .store-name p{
+        text-align: center;
+      }
+}
+    
+@media(max-width: 512px){
+    footer {
+        gap: 12px;
+        padding: 12px 10px 3px 10px;
+    }
+      
+    footer section {
+        gap: 20px;
+    }
+
+    .store-name h1{
+        font-size: 21px;
+    }
+
+    .store-name p{
+        text-align: center;
+        font-size: 8px;
+    }  
+
+    .quicklinks .link {
+        gap: 4px;
+    }
+
+    .quicklinks .link ul{
+        gap: 3px;
+        text-align: center;
+      }
+
+      .quicklinks .link h3 {
+        text-align: center;
+      }
+    
+      .quicklinks .link ul li {
+        font-size: 9px;
+      }
+
+      .rights p{
+        font-size: 7px;
+      } 
+}

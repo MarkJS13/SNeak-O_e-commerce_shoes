@@ -1,0 +1,34 @@
+:root {
+    --dark: #050206;
+    --light-dark: #3b3b3b;
+    --brown: hsl(22,16%,27%);
+    --light-brown: hsla(22, 16%, 27%, 0.685);
+    --white: #ffffff;
+    --bg-color: rgba(255, 255, 255, 0.534);
+    --gray: #F2F4F7;
+}
+
+.success-notif {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    z-index: 9;
+    transform: translateY(-100%);
+    transition: ease-in-out .8s;
+}
+
+.success-display {
+    transform: translate(0);
+}
+
+.success-notif p{
+    font-family: 'ADLaM Display', cursive;
+    font-size: clamp(0.875rem, 0.5625rem + 1vw, 1.125rem);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: green;
+}

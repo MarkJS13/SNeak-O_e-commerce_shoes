@@ -1,0 +1,83 @@
+@media(max-width: 947px) {
+    main {
+        gap: 80px;
+      }
+      
+      .hero {
+        grid-row: 2/3;
+        height: 70vh;
+        margin: 0 50px;
+        margin-top: 85px;
+        gap: 30px;
+      }
+      
+      .hero .slogan h1{
+        font-size: 50px;
+      
+      }
+      
+      .hero .shop-now button {
+        padding: 15px 25px;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      
+      .hero .shop-now button a{
+        gap: 15px;
+      }
+    
+      
+  }
+
+@media(max-width: 700px){
+    main {
+      gap: 40px;
+    }
+    
+    .hero {
+      height: 65vh;
+      margin: 0 0;
+      margin-top: 85px;
+      gap: 28px;
+      border-radius: 0;
+    }
+    
+    .hero .slogan h1{
+      font-size: 47px;
+    }
+    
+    .hero .shop-now button {
+      padding: 13px 23px;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    
+    .hero .shop-now button a{
+      gap: 13px;
+    }
+  }
+
+@media(max-width: 512px){
+    main {
+      gap: 30px;
+    }
+    
+    .hero {
+      height: 60vh;
+      
+    }
+    
+    .hero .slogan h1{
+      font-size: 30px;
+      padding: 0 10px;
+    }
+    
+    .hero .shop-now button {
+      padding: 10px 20px;
+      font-size: 10px;
+    }
+    
+    .hero .shop-now button a{
+      gap: 13px;
+    }
+  }

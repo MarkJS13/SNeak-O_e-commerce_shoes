@@ -1,0 +1,231 @@
+@media(max-width: 947px) {
+    
+.newsletter {
+    padding: 0 50px;
+    gap: 30px;
+  }
+  
+  .newsletter .limited-offer {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+  
+  }
+  
+  .limited-offer .offer-img {
+    background-position: center;
+  }
+  
+  .offer-text {
+    padding: 30px;
+  }
+  
+  .offer-text p {
+    font-size: 12px;
+  }
+  
+  .offer-text h1 {
+    font-size: 30px;
+    
+  }
+  
+  .offer-text .btn {
+    padding-top: 30px;
+  }
+  
+  .offer-text .btn button {
+    padding: 8px 18px;
+    font-size: 16px;
+  }
+  
+  
+  .subscribe {
+    gap: 25px;
+  }
+  
+  .text1 {
+    gap: 5px;
+  }
+  
+  .text1 h1{
+    font-size: 23px;
+    line-height: 1.2;
+  }
+  
+  .text1 p{
+    font-size: 11px;
+  }
+  
+  .text2 {
+    gap: 15px;
+  }
+  
+  .text2-form {
+    gap: 5px;
+  }
+  
+  .text2-form .input-holder input {
+    padding: 6px 0;
+    padding-left: 27px;
+    font-size: 13px;
+  }
+  
+  .text2-form .input-holder .mailIcon {
+    padding-left: 6px;
+    top: 16%;
+  }
+  
+  
+  .text2-form button {
+    font-size: 13px;
+  }
+  
+  
+  .text2-text p{
+    font-size: 9px;
+    color: var(--light-brown);
+  }
+      
+  }
+
+@media(max-width: 700px){
+    .newsletter { 
+        gap: 25px;
+      }
+      
+      .newsletter .limited-offer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 2fr;
+      
+      }
+      
+      .limited-offer .offer-img {
+        border-radius: 7px 7px 0 0;
+      }
+      
+      .offer-text {
+        padding: 25px;
+        border-radius: 0 0 7px 7px;
+      }
+      
+      .offer-text p {
+        font-size: 10px;
+      }
+      
+      .offer-text h1 {
+        font-size: 27px;
+        
+      }
+      
+      .offer-text .btn {
+        padding-top: 25px;
+      }
+      
+      .offer-text .btn button {
+        padding: 6px 16px;
+        font-size: 14px;
+      }
+      
+      .subscribe {
+        gap: 20px;
+      }
+      
+      .text1 {
+        gap: 3px;
+      }
+      
+      .text1 h1{
+        font-size: 19px;
+      }
+      
+      .text1 p{
+        font-size: 10px;
+      }
+      
+      .text2 {
+        gap: 8px;
+      }
+      
+      .text2-form {
+        gap: 5px;
+      }
+      
+      
+      
+      .text2-form button {
+        font-size: 13px;
+      }
+      
+      
+      .text2-text p{
+        font-size: 9px;
+      }
+  }
+
+@media(max-width: 512px){
+      .newsletter {
+        padding: 0 10px;
+        gap: 25px;
+      }
+      
+      
+      .offer-text p {
+        font-size: 9px;
+      }
+      
+      .offer-text h1 {
+        font-size: 23px;
+        
+      }
+      
+      .offer-text .btn {
+        padding-top: 15px;
+      }
+      
+      .offer-text .btn button {
+        padding: 4px 14px;
+        font-size: 13px;
+      }
+      
+      .subscribe {
+        gap: 18px;
+      }
+      
+      
+      .text1 h1{
+        font-size: 14px;
+      }
+      
+      .text1 p{
+        font-size: 8px;
+      }
+      
+      .text2 {
+        gap: 5px;
+      }
+      
+      .text2-form {
+        gap: 3px;
+      } 
+       
+    .text2-form .input-holder input {
+        padding: 6px 0;
+        padding-left: 26px;
+        font-size: 10px;
+    }
+    
+    .text2-form .input-holder .mailIcon {
+        padding-left: 7px;
+        top: 16%;
+    }
+    
+    
+    .text2-form button {
+        font-size: 10px;
+
+    }
+    
+    .text2-text p{
+        font-size: 8px;
+    }
+  }

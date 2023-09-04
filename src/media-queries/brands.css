@@ -1,0 +1,188 @@
+@media(max-width: 947px) {
+
+    .brands {
+        padding: 0 50px;
+        gap: 25px;
+      }
+      
+      .brands h1 {
+        font-size: 25px;
+      }
+      
+      .brand-logos {
+        padding-bottom: 40px;
+        font-size: 45px;
+      }
+
+      .brand-logos div {
+        font-size: 42px;
+        }
+
+      .brand-banner-text {
+        gap: 30px;
+      }
+      
+      .banner-title{
+        font-size: 23px;
+      }
+      
+      .brand-banner {
+        
+        gap: 10px;
+      }
+      
+      .brand-banner .banner {
+        gap: 7px;
+      }
+      
+      
+      .banner .b-logo span{
+        padding: 6px;
+        font-size: 18px;
+      }
+      
+      .banner h2 {
+        font-size: 17px;
+      }
+      
+      .banner p {
+        font-size: 12px;
+        
+      }  
+  }
+
+  @media(max-width: 700px){
+    .brands {
+        padding: 0 50px;
+        gap: 20px;
+      }
+      
+      .brands h1 {
+        font-size: 22px;
+      }
+      
+      .brand-logos {
+        padding-bottom: 40px;
+      }
+
+      .brand-logos div {
+        font-size: 32px;
+        }
+
+      .brand-banner-text {
+        gap: 12px;
+      }
+      
+      .banner-title{
+        font-size: 20px;
+      }
+      .brand-banner {
+        gap: 10px;
+      }
+      
+      .brand-banner .banner {
+        gap: 5px;
+      }
+      
+      
+      .banner .b-logo span{
+        padding: 4px;
+        font-size: 16px;
+      }
+      
+      .banner h2 {
+        font-size: 15px;
+      }
+      
+      .banner p {
+        font-size: 10px;
+      }
+  }
+
+  @media(max-width: 600px){
+    
+      .brand-banner-text {
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .banner-title{
+        font-size: 20px;
+        align-items: center;
+      }
+      .brand-banner {
+        gap: 10px;
+        flex-direction: column;
+      }
+      
+      .brand-banner .banner {
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      
+      .banner .b-logo span{
+        padding: 4px;
+        font-size: 16px;
+      }
+      
+      .banner h2 {
+        font-size: 15px;
+      }
+      
+      .banner p {
+        font-size: 10px;
+      }
+  }
+
+
+  @media(max-width: 512px){
+
+    .brands {
+        padding: 0 10px;
+        gap: 25px;
+        
+    }
+
+    .brand-logos {
+        padding-bottom: 20px;
+    }
+
+    .brand-logos div {
+        font-size: 25px;
+    }
+
+    .brand-banner-text {
+        gap: 25px;
+      }
+      
+      .banner-title{
+        font-size: 16px;
+      }
+
+      .brand-banner {
+        gap: 10px;
+      }
+      
+      .brand-banner .banner {
+        gap: 8px;
+      }
+      
+      
+      .banner .b-logo span{
+        padding: 5px;
+        font-size: 17px;
+      }
+      
+      .banner h2 {
+        font-size: 17px;
+      }
+      
+      .banner p {
+        font-size: 12px;
+        text-align: center;
+      }
+ 
+  }
