@@ -1,5 +1,5 @@
 import { AiOutlineArrowRight } from 'react-icons/ai'
-
+import { Link } from 'react-router-dom';
 const Hero = () => {
     return(
         <div className="hero">
@@ -8,7 +8,7 @@ const Hero = () => {
             </div>
 
             <div className="shop-now">
-                <button> <a href=""> Shop Now <span> <AiOutlineArrowRight/> </span> </a>  </button>
+                <button> <Link to='/shop'>Shop Now <span> <AiOutlineArrowRight/> </span> </Link>  </button>
             </div>
             
         </div>
