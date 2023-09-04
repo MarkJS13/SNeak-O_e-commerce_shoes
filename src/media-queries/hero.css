@@ -37,7 +37,7 @@
     .hero {
       height: 65vh;
       margin: 0 0;
-      margin-top: 85px;
+      margin-top: 0;
       gap: 28px;
       border-radius: 0;
     }

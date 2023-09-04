@@ -9,7 +9,7 @@ const Header = (props) => {
 
     return(
         <header>
-            <div className="header-container" data-aos="fade-down" data-aos-duration="800">
+            <div className="header-container" data-aos="fade-up" data-aos-duration="800">
                 <li className='logo'> <Link to="/"> SNeak-O </Link> </li>
                 <nav>
                     <li> <a href="#"> <BsSearch/> </a> </li>

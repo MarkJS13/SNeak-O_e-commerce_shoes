@@ -62,22 +62,22 @@ const Featured = () => {
                 <h1>Currated picks</h1>
 
                 <div className="currated-tiles">
-                    <div className="tile kids" data-aos="zoom-out" data-aos-duration="800">
+                    <div className="tile kids">
                         <h3> <FaChild/> </h3>
                         <button>  Shop Kids <span> <AiOutlineArrowRight/> </span> </button>
                     </div>
 
-                    <div className="tile men" data-aos="zoom-out" data-aos-duration="800">
+                    <div className="tile men">
                         <h3> <FaMale/> </h3>
                         <button> Shop Men <span> <AiOutlineArrowRight/> </span> </button>
                     </div>
 
-                    <div className="tile women" data-aos="zoom-out" data-aos-duration="800"> 
+                    <div className="tile women"> 
                         <h3> <FaFemale/> </h3>
                         <button> Shop Women <span> <AiOutlineArrowRight/> </span> </button>
                     </div>
 
-                    <div className="tile casual" data-aos="zoom-out" data-aos-duration="800">
+                    <div className="tile casual">
                         <h3> <FaShoePrints/> </h3>
                         <button> Shop Casual <span> <AiOutlineArrowRight/> </span> </button>
                     </div>
