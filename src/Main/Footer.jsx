@@ -8,8 +8,8 @@ const Footer = () => {
             <section>
                 <div className="store-name">
                     <h1>SNeak-O</h1>
-                    <p>Specializes in providing high-quality, stylish <span>
-                    shoes for your wardrobe.  </span>  </p>
+                    <p>Experts in offering top-tier, fashionable <span>
+                    footwear for your closet.  </span>  </p>
                 </div>
 
                 <div className="quicklinks">
@@ -26,9 +26,9 @@ const Footer = () => {
                     <div className='link'>
                         <h3>COMPANY</h3>
                         <ul>
-                            <li>All collections</li>
-                            <li>Winter Edition</li>
-                            <li>Discount</li>
+                            <li>About Us</li>
+                            <li>Contact</li>
+                            <li>Affiliates</li>
                         </ul>
                     </div>
 

@@ -4,7 +4,7 @@ const Hero = () => {
     return(
         <div className="hero">
             <div className="slogan">
-                <h1> Level up your styles with amazing shoes</h1>   
+                <h1> Elevate your fashion game with fantastic footwear. </h1>   
             </div>
 
             <div className="shop-now">
